@@ -315,7 +315,7 @@
       <div class="asof"><strong>数据快照 · 2026-10-02</strong>美股收盘 · ET · USD<br />调研日期 2026-10-03</div>
     </header>
 
-    <div class="snapshot-warning"><strong>先看数据边界：</strong>分析师目标价与评级属于第三方观点，不等于事实或投资建议；借券利用率与借券费率无免费公开源，本页仅呈现 FINRA 数据并标注边界；Q1 FY2027 财报日期来源间有分歧（Zacks 为 10/21，OptiView 为 10/25 ⚠️）；30 天 ATM IV 两个来源口径 / 时点不同（FlashAlpha 48.1% @10/02 / OptiView 64.2% @10/01 ⚠️），已并列标注。</div>
+    <div class="snapshot-warning"><strong>先看数据边界：</strong>分析师目标价与评级属于第三方观点，不等于事实或投资建议；借券利用率与借券费率无免费公开源，本页仅呈现 FINRA 数据并标注边界；Q1 FY2027 财报日期来源间有分歧（Zacks 为 10/21，OptiView 为 10/25 ⚠️）；30 天 ATM IV 两个来源口径 / 时点不同（FlashAlpha 48.1% @10/02 / OptiView 59.7% @10/02 ⚠️），已并列标注。</div>
 
     <nav class="section-nav" aria-label="页面章节">
       <a href="#market">行情</a><a href="#options-structure">期权结构</a><a href="#financials">财务</a><a href="#short">做空</a><a href="#analysts">分析师</a><a href="#events">事件雷达</a><a href="#thesis">为什么关注</a><a href="#risks">风险</a>
@@ -384,7 +384,7 @@
 
     <section class="section" id="options-structure">
       <div class="section-head"><h2>期权结构</h2><span class="section-index">01A / OPTIONS STRUCTURE</span></div>
-      <p style="margin:0 0 12px;font-size:13px;color:var(--muted)">数据截至：FlashAlpha 2026-10-02 快照 · OptiView 2026-10-01（尚未滚动），每周更新</p>
+      <p style="margin:0 0 12px;font-size:13px;color:var(--muted)">数据截至：FlashAlpha 2026-10-02 快照 · OptiView 2026-10-02，每周更新</p>
 
       <div class="panel" style="padding:16px 18px;margin-bottom:12px;border-left:4px solid var(--accent)">
         <div style="display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-bottom:8px">
@@ -398,13 +398,15 @@
         <div class="datum"><span class="k">净做市商 GEX</span><span class="v pos">正</span><span class="k">约 +$86.4M · FlashAlpha（2026-10-02 13:21 ET 快照）</span></div>
         <div class="datum"><span class="k">Call Wall</span><span class="v">$350</span><span class="k">阻力参考 · 紧贴 10/02 收盘 $347.49 上方 · FlashAlpha 2026-10-02</span></div>
         <div class="datum"><span class="k">Put Wall</span><span class="v">$330</span><span class="k">支撑参考 · FlashAlpha 2026-10-02</span></div>
-        <div class="datum"><span class="k">Max Pain</span><span class="v">$280</span><span class="k">全期限口径 · OptiView 2026-10-01（尚未滚动）</span></div>
-        <div class="datum"><span class="k">Put-Call 未平仓比</span><span class="v">1.14</span><span class="k">Call 242,224 张／Put 275,713 张 · OptiView 2026-10-01</span></div>
-        <div class="datum"><span class="k">30 天 ATM IV</span><span class="v">48.1%</span><span class="k">FlashAlpha 2026-10-02（⚠️OptiView 2026-10-01 口径 64.2%）· IV Rank 61/100（OptiView），Moderate</span></div>
-        <div class="datum"><span class="k">期权隐含预期波幅</span><span class="v">±$53.65</span><span class="k">±15.8% · OptiView 2026-10-01（尚未滚动）</span></div>
+        <div class="datum"><span class="k">Max Pain（全部到期日口径）</span><span class="v">$285</span><span class="k">距 10/2 收盘 −18.0% · OptiView 2026-10-02</span></div>
+        <div class="datum"><span class="k">Put-Call 未平仓比</span><span class="v">1.15</span><span class="k">Call 未平仓 247,295 张／Put 未平仓 284,984 张 · OptiView 2026-10-02</span></div>
+        <div class="datum"><span class="k">30 天 ATM IV</span><span class="v">48.1%</span><span class="k">FlashAlpha 2026-10-02（⚠️OptiView 2026-10-02 口径 59.7%）· IV Rank 59/100（OptiView）</span></div>
+        <div class="datum"><span class="k">期权隐含预期波幅</span><span class="v">±$64.24</span><span class="k">约 ±18.5% · OptiView 2026-10-02</span></div>
       </div>
 
-      <p style="margin:12px 0 0;font-size:12px;color:var(--muted);line-height:1.7">数据来源 FlashAlpha（2026-10-02 13:21 ET 快照）、OptiView（2026-10-01 15:55 ET，尚未滚动）（OPRA 延迟数据），两来源日期分别标注、不混用。Call/Put Wall 与 Max Pain 为做市商对冲参考位，不构成买卖建议。Gamma Flip 各模型分歧较大，本板块不列固定数值。GEX 正负基于“做市商持有与公开订单流相反头寸”的模型假设。</p>
+      <p style="margin:12px 0 0;font-size:12.5px;color:var(--muted);line-height:1.7">现价位置（10/2 收盘 vs Wall）：收盘 $347.49，Call Wall $350 在上方约 0.7%（贴近上墙）；Put Wall $330 在下方约 5.3%<br />成交异动（OptiView 2026-10-02）：当日成交最热行权价 $350；全链成交量 / 未平仓量比 0.69</p>
+
+      <p style="margin:12px 0 0;font-size:12px;color:var(--muted);line-height:1.7">数据来源 FlashAlpha（2026-10-02 13:21 ET 快照）、OptiView（2026-10-02）（OPRA 延迟数据），两来源日期分别标注、不混用。Call/Put Wall 与 Max Pain 为做市商对冲参考位，不构成买卖建议。Max Pain 为全部到期日合约口径，包含远月合约，数值通常低于最近到期口径，两者不可直接比较。Gamma Flip 各模型分歧较大，本板块不列固定数值。GEX 正负基于“做市商持有与公开订单流相反头寸”的模型假设。</p>
     </section>
 
     <section class="section" id="financials">
@@ -587,14 +589,14 @@
         <ul class="risk-list">
           <li><span class="num">01</span><div><h4>估值已高：Trailing P/E 约 56–59，预期打满</h4><p>现价 $347.49 对应 Forward P/E 29.0（marketbeat，10/01 快照），全年股价区间 $131.02–$438.50 大幅波动后处于反弹高位区；10/21 财报若未达 $8.10B 指引中枢，估值回撤风险显著。</p></div></li>
           <li><span class="num">02</span><div><h4>中国收入敞口与出口管制</h4><p>中国区收入占比 26%（3 月季度为 34%），出口管制收紧为实质风险因素，可能直接影响 Systems 出货与服务收入。</p></div></li>
-          <li><span class="num">03</span><div><h4>高波动：Beta 约 1.85–1.94，板块 beta 主导短线</h4><p>9 月曾出现单日 −8.3%；10/01 +3.53% 主要来自 Micron 财报的板块联动而非公司自身消息。期权隐含预期波幅 ±15.8%（OptiView 2026-10-01）、IV Rank 61/100，财报前后波动定价偏高。</p></div></li>
-          <li><span class="num">04</span><div><h4>期权结构：Call Wall $350 紧贴现价上方</h4><p>净做市商 GEX 为正（约 +$86.4M，FlashAlpha 2026-10-02）呈钉价倾向，Call Wall $350 紧贴 10/02 收盘 $347.49 上方、Put Wall $330 在下方，Max Pain $280（OptiView 2026-10-01）远在下方；10/21 财报为最近到期结构之外的最大变量，关键位将随到期滚动变化。</p></div></li>
+          <li><span class="num">03</span><div><h4>高波动：Beta 约 1.85–1.94，板块 beta 主导短线</h4><p>9 月曾出现单日 −8.3%；10/01 +3.53% 主要来自 Micron 财报的板块联动而非公司自身消息。期权隐含预期波幅 ±18.5%（OptiView 2026-10-02）、IV Rank 59/100，财报前后波动定价偏高。</p></div></li>
+          <li><span class="num">04</span><div><h4>期权结构：Call Wall $350 紧贴现价上方</h4><p>净做市商 GEX 为正（约 +$86.4M，FlashAlpha 2026-10-02）呈钉价倾向，Call Wall $350 紧贴 10/02 收盘 $347.49 上方、Put Wall $330 在下方，Max Pain $285（OptiView 2026-10-02，全部到期日口径）远在下方；10/21 财报为最近到期结构之外的最大变量，关键位将随到期滚动变化。</p></div></li>
           <li><span class="num">05</span><div><h4>内部人售股信号（弱）</h4><p>董事 Bethany Mayer 于 2026-09 售股 9,557 股（约 $3.0M，减持 31.28%）；单一内部人交易，基本面证据不足，仅作观察项。</p></div></li>
         </ul>
       </article>
     </section>
 
-    <section class="source-note"><strong>研究完整性（数据基准日 2026-10-02，调研日期 2026-10-03）：</strong>图表与图内统计直接按 Nasdaq 官方历史 API 的 65 个交易日收盘序列绘制，未复权口径（9/23 除息 $0.33）；收盘价与 quote API、Finnhub、marketbeat 交叉确认，09-30 收盘 OptiView 页眉 $328.69 与 Nasdaq $328.51 有 $0.18（0.05%）出入，以 Nasdaq 官方为准。52 周低点口径：Nasdaq $131.02、OptiView $131.35、Finnhub $126.37，以 Nasdaq 官方为准并已标注。FINRA 做空为 2026-09-15 结算期（最新已发布）。Trailing P/E 56.4（Finnhub）与 59.05（dailypolitical）为时点差异，并列标注。Q1 FY2027 财报日期 Zacks 为 10/21、OptiView 为 10/25 ⚠️，并列标注。30 天 ATM IV FlashAlpha 48.1%（2026-10-02 快照）与 OptiView 64.2%（2026-10-01）为口径 / 时点差异，并列标注。BofA $480 目标价为 dailypolitical 单源，已标注 ⚠️。借券利用率与借券费率无免费公开源，未呈现也未估算。单源数据已在相应条目逐项标注。</section>
+    <section class="source-note"><strong>研究完整性（数据基准日 2026-10-02，调研日期 2026-10-03）：</strong>图表与图内统计直接按 Nasdaq 官方历史 API 的 65 个交易日收盘序列绘制，未复权口径（9/23 除息 $0.33）；收盘价与 quote API、Finnhub、marketbeat 交叉确认，09-30 收盘 OptiView 页眉 $328.69 与 Nasdaq $328.51 有 $0.18（0.05%）出入，以 Nasdaq 官方为准。52 周低点口径：Nasdaq $131.02、OptiView $131.35、Finnhub $126.37，以 Nasdaq 官方为准并已标注。FINRA 做空为 2026-09-15 结算期（最新已发布）。Trailing P/E 56.4（Finnhub）与 59.05（dailypolitical）为时点差异，并列标注。Q1 FY2027 财报日期 Zacks 为 10/21、OptiView 为 10/25 ⚠️，并列标注。30 天 ATM IV FlashAlpha 48.1%（2026-10-02 快照）与 OptiView 59.7%（2026-10-02）为口径差异，并列标注。BofA $480 目标价为 dailypolitical 单源，已标注 ⚠️。借券利用率与借券费率无免费公开源，未呈现也未估算。单源数据已在相应条目逐项标注。</section>
 
     <footer>价格卡可刷新实时报价；其余为截至 2026-10-02 美股收盘的静态研究快照，不构成证券研究报告或投资建议。引用链接打开第三方原始页面。</footer>
   </main>
